@@ -43,7 +43,7 @@ body{
     
 }
 .container ul li {
-    width: 13.5vw;
+    width: 13.5%;
     height: 10vh;
     background-color: #f3f8f9;
     margin-right: 0;
@@ -51,4 +51,28 @@ body{
     margin-left: o;
     float: right;
     border-left: 1px dotted black;  
+}
+#topbar #frame {
+    border:  solid white 2px;
+    border-radius: 20%
+}
+
+article{
+    top: 20vh;
+    position: absolute;
+    text-align: left;
+    position: absolute;
+}
+article h1{
+    font-size: 40px;
+}
+article p{
+    font-size: 20px;
+}
+}
+article img{
+   text-align:left;
+   width: 50vw;
+   height: 50vh;
+
 }
