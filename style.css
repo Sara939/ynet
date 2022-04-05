@@ -30,7 +30,7 @@ body{
 }
 #topbar #frame {
     border:  solid white 2px;
-    border-radius: 20%
+    border-radius: 30%;
 }
 
 .container {
@@ -84,6 +84,40 @@ body{
     margin-top: 6vh;
     display: inline-block;
     float: left;
+    font-size: 12px;
     
 }
+.redtwo{
+    background-color: #de1a1a;
+    color: white;
+    height: 113px;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    
+
+}
+.blue {
+    background-color: #3a3ed0;
+    color: white;
+    height: 113px;
+    margin-bottom: 3vh;
+    font-weight: bold;
+}
+#add{
+    width: 44vw;
+    float: left;
+    margin-top: 7vh;
+
+}
+#add img {
+    width: 16vw;
+    height: 113px;
+    float: right;
+    
+}
+#add p{
+    padding: 2vh;
+    padding-right: 38vh;
+}
+
 
