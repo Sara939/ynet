@@ -1,4 +1,4 @@
-img{
+header img{
     height: 15vh;
     display: block;
   margin-left: auto;
@@ -28,7 +28,6 @@ body{
     position: absolute;
     margin-right: 0;
 }
-
 #topbar #frame {
     border:  solid white 2px;
     border-radius: 20%
@@ -37,53 +36,54 @@ body{
 .container {
     width: 100%;
     display: flex;
-    position: absolute;
-    top: 35vh;
-    display: block;
+    top: 50vh;
+    margin-top: 20vh;
    
 }
 .container ul {
     padding: 0; 
     margin: 0;
     list-style-type: none; 
+    font-weight: bold;
     
 }
 .container ul li {
     width: 14.5%;
-    height: 10vh;
+    height: 14vh;
     background-color: #f3f8f9;
     margin-right: 0;
-    padding: 2vh;
+    padding: 13px;
     margin-left: o;
     float: right;
     border-left: 1px dotted black;  
 }
 .container [class]{
-    color: #de1a1a;
+    color:#de1a1a;
 }
 
 
 #article{
-    margin-top: 30vh;
-    width: 50vw;
+    width: 44vw;
     display: inline-block;
-
+    float: right;
+  
 }
 #article h1{
-    font-size: 40px;
+    font-weight: 10px;
+    font-size: 48px;
 }
 #article p{
     font-size: 20px;
 }
+ 
 
-}
-#img{
-    margin:0;
-    margin-top: 30vh;
-    width: 50vw;
+#pictur img{
+    
+    width: 44vw;
     height: 50vh;
+    margin-top: 6vh;
     display: inline-block;
-
+    float: left;
+    
 }
-
 
